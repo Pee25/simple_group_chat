@@ -1,0 +1,42 @@
+.contain {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px 0 #00000056;
+}
+
+.darker {
+    background-color: #61b3d3;
+    color: white;
+}
+
+.contain::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.contain img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.contain img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+}
+
+.time-left {
+    float: left;
+    color: #eeeaea;
+}
